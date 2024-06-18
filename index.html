@@ -25,6 +25,9 @@
             color: #ff4d4d;
             font-size: 24px;
             margin-bottom: 20px;
+            text-decoration: underline; /* Ajout du soulignement */
+            font-weight: bold; /* Ajout du gras */
+            text-align: center; /* Centrage du titre */
         }
         p {
             font-size: 16px;
@@ -42,6 +45,10 @@
             color: #333;
             margin-bottom: 10px;
             font-style: italic; /* Ajout du style italique pour tous les <li> */
+        }
+        .important {
+            font-weight: bold; /* Ajout du gras pour les éléments importants */
+            text-decoration: underline; /* Ajout du soulignement pour les éléments importants */
         }
         .contact {
             margin-top: 20px;
@@ -62,14 +69,14 @@
         <h1>Alerte De Sécurité</h1>
         <p>Vous venez de cliquer sur un lien potentiellement dangereux. Ne vous inquiétez pas, ceci était une simulation ayant pour but de renforcer votre vigilance.</p>
         <p>Nous menons ces campagnes pour vous sensibiliser aux risques des e-mails de phishing (arnaques, hameçonnages), qui peuvent sérieusement compromettre la sécurité des données d'entreprise.</p>
-        <p>Voici quelques gestes simples pour vous protéger :</p>
+        <p class="important">Voici quelques gestes simples pour vous protéger :</p>
         <ul>
             <li>Signalez immédiatement le mail à votre service informatique.</li>
             <li>Examinez attentivement l'adresse e-mail de l'expéditeur avant d'ouvrir un e-mail.</li>
             <li>Évitez de cliquer sur des liens ou pièces jointes non vérifiés ou suspects.</li>
             <li>Ne fournissez jamais vos informations personnelles ou de connexion via un e-mail.</li>
         </ul>
-        <p>Quelques chiffres :</p>
+        <p class="important">Quelques chiffres :</p>
         <ul>
             <li>En 2023, 48% des entreprises françaises ont signalé des attaques de phishing.</li>
             <li>Les incidents de phishing ont augmenté de 30% en 2023 par rapport à 2022.</li>
